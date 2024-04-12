@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1 {
+    font-size: 56px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+}
+
+header li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header li a {
+    text-decoration: none;
+    color: #E58C6C;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #E9D2C5;
+    color: #E58C6C;
+}
+
+#h2 {
+    font-size: 36px;
+    color: #3F4241;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 50px;
+    margin-left: 50px;
+}
+
+img {
+    float: right;
+}
+
+#button h3 {
+    color: #E58C6C;
+    text-align: center;
+    font-size: 36px;
+}
+
+.Mybutton {
+    text-align: center;
+}
+
+.Mybutton button {
+    color: white;
+    background-color: #E58C6C;
+    font-size: 22px;
+    height: 70px;
+    width: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 50px;
+    border: none;
+}
+
+.Mybutton button:hover {
+    background-color:#bd6344;
+    transform: scale(1.2);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#test,
+#products {
+    background-color:#E9D2C5;
+}
+
+#products {
+    padding: 50px 0 150px 0;
+}
+
+#about {
+    padding: 50px;
+}
+
+#about h2,
+#products h2 {
+    color:#E58C6C;
+    font-size: 36px;
+    text-align: center;
+}
+
+#products h4 {
+    padding-top: 100px;
+}
+
+form button {
+    color: white;
+    background-color: #E58C6C;
+    border-radius: 50px;
+    border: none;
+}
+
+form button:hover {
+    background-color:#bd6344;
+    transform: scale(1.2);
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+h4 {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #3F4241;
+    padding: 10px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#products img {
+    float: left;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 8px;
+    width: 320px;
+    padding: 8px;
+    margin-left: 20%;
+    float: left;
+}
+
+#contact {
+    display: flex;
+}
+
+.myfollow,
+.mycontact,
+.myfollow ul {
+    flex: 1;
+}
+
+.mycontact h2,
+.myfollow h2,
+.myfollow ul{
+    padding: 50px;
+    margin-left: 50px;
+}
+
+.myfollow li img {
+    height: 24px;
+}
